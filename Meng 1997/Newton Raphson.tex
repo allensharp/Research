@@ -1,0 +1,34 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{natbib}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{threeparttable}
+% \usetikzlibrary{positioning,shapes,shadows,arrows,fit,backgrounds,decorations.pathmorphing}
+
+\title{Newton-Raphson algorithm for \citet{meng1997em}}
+\author{Brendon M.\ Lapham}
+
+\newcommand{\dd}{ \, {\rm d}}
+\newcommand{\ndd}{ {\rm d}}
+\newcommand{\his}{\widetilde{\mathcal{H}}}
+\newcommand{\pgfl}{p.g.fl.}
+
+\begin{document}
+  
+ \maketitle
+
+The details can be found in \citet{meng1997em}.
+The log-likelihood for the zero-inflated Poisson is
+$$ \ell(\lambda |Y_{\text{obs}}) = n_\text{obs}[\bar x_\text{obs} log \lambda - \lambda \log(1-e^{-\lambda}) ].   $$
+ 
+
+
+
+
+\bibliographystyle{dcu_etal_}
+\bibliography{References-cm2011}
+
+
+\end{document}
